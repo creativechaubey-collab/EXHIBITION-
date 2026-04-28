@@ -1,0 +1,36 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.conceptworld.in/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 10
+
+# Disallow sensitive directories
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+
+# Allow specific paths
+Allow: /patna-projects/
+Allow: /Exhibition Stall Design Patna/
+Allow: /image/
+Allow: /logo/
+
+# Specific bot instructions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: AhrefsBot
+Crawl-delay: 30
+
+User-agent: SemrushBot
+Crawl-delay: 30
